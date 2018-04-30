@@ -1,0 +1,89 @@
+h1 {
+	text-align: center;
+	color: #FFF;
+	background-color: #5E4485;
+}
+.navbar{
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #5E4485;
+	font-size: 1.2em;
+	padding: 1% 0;
+	border: 0;
+}
+
+.navbar-brand{
+	float: left;
+	padding: 0 15px 5px;
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .active a:hover {
+	color: #fff;
+	background-color: #5E4485;
+}
+
+.navbar-inverse .navbar-nav .active a:hover {
+	color: #D5D5D5;
+}
+
+
+
+.carousel-caption {
+	top: 50%;
+	transform: translateY(-50%);
+	text-transform: uppercase;
+}
+
+.btn {
+	font-size: 18px;
+	color: #fff;
+	padding: 12px;
+	background: #5E4485;
+	border: 2px solid #fff;
+}
+
+.container {
+	margin: 4% auto;
+}
+
+.icon {
+	max-width: 200px;
+	margin: 1% auto;
+}
+
+@media (max-width: 900px) {
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+}
+
+@media (max-width: 600px) {
+	.carousel-caption {
+		display: none;
+	}
+	#icon {
+		max-width: 150px;
+	}
+	h2 {
+		font-size: 1.7em;
+	}
+}
+
+footer {
+	width: 100%;
+	background-color: #5E4485;
+	padding: 1%;
+	color: #FFF;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+}
+
+.fa:hover {
+	color: #D5D5D5;
+	text-decoration: none;
+}
