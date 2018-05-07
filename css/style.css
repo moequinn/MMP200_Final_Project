@@ -1,0 +1,31 @@
+h1 {
+	text-align: center;
+	color: #FFF;
+	background-color: rgba(26,179,148,0.6);
+}
+
+h5 {
+	text-align: center;
+	color: #FFF;
+	background-color: rgba(26,179,148,0.6);
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+footer {
+    width: 100%;
+    color: #FFF;
+    background-color: rgba(26,179,148,0.6);
+}
