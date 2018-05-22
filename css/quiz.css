@@ -8,6 +8,12 @@ h1 {
 	background-color: rgba(26,179,148,0.7);
 }
 
+h4 {
+	text-align: center;
+	color: #FFF;
+	background-color: rgba(26,179,148,0.7);
+}
+
 a {
     text-align: center;
     margin: 0px; 
